@@ -6,8 +6,8 @@ import 'package:flame/parallax.dart';
 import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:my_game/game/owlet.dart';
-import 'package:my_game/packages/enemy_generator.dart';
+import '../game/owlet.dart';
+import '../packages/enemy_generator.dart';
 
 class TinyGame extends FlameGame
     with KeyboardEvents, TapDetector, HasCollisionDetection {
