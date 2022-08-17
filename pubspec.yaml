@@ -1,0 +1,87 @@
+name: devera_tiny_game
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # A minimalist Flutter game engine
+  flame: ^1.2.1
+
+  # Audio support for the Flame game engine.
+  flame_audio: ^1.3.0
+
+  # Style your flame game with a beautiful splash screen with logo reveal
+  flame_splash_screen: ^0.1.0
+
+  # Customize Flutter's default white native splash screen
+  flutter_native_splash: ^2.2.7
+
+  # Simplifies the task of updating your Flutter app's launcher icon.
+  flutter_launcher_icons: ^0.10.0
+
+  # Launching a URL. Supports web, phone, SMS, and email schemes.
+  url_launcher: ^6.1.5
+
+  # Play multiple audio files simultaneously
+  audioplayers: ^1.0.1
+
+  # Lightweight and blazing fast key-value database written in pure Dart.
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Getting commonly used locations on host platform file systems
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/Background/
+    - assets/images/Owlet_Monster/
+    - assets/images/Bunny/
+    - assets/images/AngryPig/
+    - assets/images/Rino/
+    - assets/images/Chicken/
+    - assets/images/Bat/
+    - assets/images/bullet/
+    - assets/audio/
+
+  fonts:
+    - family: Audiowide
+      fonts:
+        - asset: assets/fonts/Audiowide-Regular.ttf
+
+flutter_native_splash:
+  image: assets/images/devera_logo.png
+  color: "#000000"
+
+  android_12:
+    image: assets/images/devera_logo.png
+    color: "#000000"
+
+  web: false
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/lecle_logo.png"
